@@ -1,6 +1,10 @@
 __author__          = 'agsvn'
 
-
+    # Foundation:   3228545
+    # UX:           3228545
+    # Version:      20.5.0
+    # Branch:       10.11.322.2991 (league-of-legends)
+    
     def keystoneSession(self):
         self.did = self.randomString(32, True)
         self.nonce = f"{self.randomString(8, False)}_{self.randomString(13, False)}"
