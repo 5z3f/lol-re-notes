@@ -1,0 +1,50 @@
+; inventory_calls
+01686AF0	%1/lolinventoryservice/v2/walletsbalances?puuid=%2&currencyTypes=%3&location=%4&accountId=%5&signed=true
+0000003F	%1/lolinventoryservice/v2/walletsbalances?puuid=%2&location=%3
+016869C8	%1/lolinventoryservice/v2/inventoriesWithLoyalty?puuid=%2&inventoryTypes=%3&location=%4&accountId=%5&signed=true
+016A19B8	%1/lolinventoryservice/v2/inventoriesWithLoyalty?puuid=%2&location=%3&accountId=%4&inventoryTypes=%5&inventoryTypes=%6
+016867D0	%1/lolinventoryservice/v2/inventoriesWithLoyalty?puuid=%2&location=%3
+016868A0	%1/lolinventoryservice/v2/inventories/simple?puuid=%2&location=%3&accountId=%4
+
+; wallet_types
+01685EAC	lol_blue_essence
+01656954	lol_clash_tickets
+01656968	lol_clash_premium_tickets
+??		lol_pulse20_premium_token
+??		RP
+
+; inventory_types
+0046520C	TOURNAMENT_TROPHY
+0046525C	TOURNAMENT_FLAG
+004652A6	TOURNAMENT_FRAME
+00465302	TOURNAMENT_LOGO
+00465368	GEAR
+004653C6	SKIN_UPGRADE_RECALL
+00465428	SPELL_BOOK_PAGE
+0046548A	BOOST
+004654EC	BUNDLES
+0046554E	CHAMPION
+004655B0	CHAMPION_SKIN
+00465612	EMOTE
+00465674	EVENT_PASS
+004656DA	GIFT
+00465738	HEXTECH_CRAFTING
+0046579A	MYSTERY
+004657FC	RP					// not available
+0046585E	RUNE
+004658C0	SPELL_BOOK_PAGE
+00465922	STATSTONE
+00465984	SUMMONER_CUSTOMIZATION
+004659E6	SUMMONER_ICON
+00465A4C	TEAM_SKIN_PURCHASE
+00465AAA	TRANSFER
+00465B0C	COMPANION
+00465B6E	TFT_MAP_SKIN
+00465BD0	TFT_DAMAGE_SKIN
+00465C32	WARD_SKIN
+0046618A	AUGMENT_SLOT				// not available (?)
+01685AB8	SPELL_BOOK_PAGE
+01693408	QUEUE_ENTRY
+016A787C	MODE_PROGRESSION_REWARD
+0169DD48	CURRENCY
+
