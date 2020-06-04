@@ -1,11 +1,11 @@
 ; reason-failed (only client side notes)
-004693A2	account_state_archived"
-004693C2	account_state_creating"
-004693E2	account_state_disabled"
-00469402	account_state_platform_split"
-00469422	account_state_transferred_out"
-00469442	account_state_transferring_back"
-00469462	account_state_transferring_in"
-00469482	account_state_transferring_out"
-004694A2	consent_required"
-004694C2	invalid_credentials"
+004693A2	account_state_archived
+004693C2	account_state_creating
+004693E2	account_state_disabled
+00469402	account_state_platform_split
+00469422	account_state_transferred_out
+00469442	account_state_transferring_back
+00469462	account_state_transferring_in
+00469482	account_state_transferring_out
+004694A2	consent_required
+004694C2	invalid_credentials
