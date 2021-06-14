@@ -1,4 +1,4 @@
-; reason-failed (only client side notes)
+; reason_failed (only client side notes)
 004693A2	account_state_archived
 004693C2	account_state_creating
 004693E2	account_state_disabled

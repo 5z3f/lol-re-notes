@@ -1,0 +1,238 @@
+resources:
+    button_folder: FolderIcon.png
+    button_folder_dark: FolderIconDark.png
+    checkbox_disabled: Checkbox.png
+    checkbox_enabled: Checkbox_Enabled.png
+    controls_mac_close_active: AppControl_Mac_Close_Active.png
+    controls_mac_close_hover: AppControl_Mac_Close_Hover.png
+    controls_mac_close_resting: AppControl_Mac_Close_Resting.png
+    controls_mac_minimize_active: AppControl_Mac_Minimize_Active.png
+    controls_mac_minimize_hover: AppControl_Mac_Minimize_Hover.png
+    controls_mac_minimize_resting: AppControl_Mac_Minimize_Resting.png
+    controls_win_close_active: AppControl_Win_Close_Active.png
+    controls_win_close_hover: AppControl_Win_Close_Hover.png
+    controls_win_close_resting: AppControl_Win_Close_Resting.png
+    controls_win_minimize_active: AppControl_Win_Minimize_Active.png
+    controls_win_minimize_hover: AppControl_Win_Minimize_Hover.png
+    controls_win_minimize_resting: AppControl_Win_Minimize_Resting.png
+    fistbump_logo: RiotFistbumpLogo.png
+    ico_file: ico_file.ico
+    install_logo: RiotLogo.png
+    riot_logo_sm: RiotLogoSmall.png
+    screen_blank: RiotBlackBackground.png
+    screen_error: RiotBlackBackground.png
+    screen_install_muted: RiotWhiteBackgroundSubtle.png
+    screen_install: RiotWhiteBackground.png
+    splash: SplashScreen.png
+    text_underline_m: TextUnderlineM.png
+    old_style_screen_blank: SmallWindowApplication_Background.png
+    system_tray_self_update_icon: SystemTraySelfUpdateIcon.png
+    system_tray_settings_icon: SettingsIcon.png
+    system_tray_riot_games_icon: RiotGamesMenuItem.png
+    system_tray_empty_placeholder: SystemTrayEmptyPlaceholder.png
+light_theme: true
+colors:
+    primary: [209, 54, 57]
+    error: [190, 41, 204]
+    error_secondary: [222, 138, 229]
+properties:
+    logo: [40, 140]
+    font-style:
+        Body-1:
+            font-face: MarkPro-Medium
+            font-size: 17
+        Body-2:
+            font-face: MarkPro-Medium
+            font-size: 15
+        Button-1:
+            font-face: MarkPro-Bold
+            font-size: 20
+        Button-1-Subtext:
+            font-face: MarkPro-Heavy
+            font-size: 11
+        Button-2:
+            font-face: MarkPro-Bold
+            font-size: 17
+        Button-3:
+            font-face: MarkPro-NarrowHeavy
+            font-size: 12
+        Caption:
+            font-face: MarkPro-NarrowHeavy
+            font-size: 11
+            font-spacing: 1.1
+        H5:
+            font-face: MarkPro-NarrowHeavy
+            font-size: 26
+        Install-Action:
+            font-face: MarkPro-Heavy
+            font-size: 12
+        Install-ETA:
+            font-face: MarkPro-Heavy
+            font-size: 25
+        System-Tray-Item:
+            font-face: MarkPro-Medium
+            font-size: 14
+    locale-font-style:
+        ru: &Neue
+            Body-1:
+                font-face: NeueFrutigerWorld-Medium
+                font-size: 20
+            Body-2:
+                font-face: NeueFrutigerWorld-Medium
+                font-size: 17
+            Button-1:
+                font-face: NeueFrutigerWorld-Bold
+                font-size: 22
+            Button-1-Subtext:
+                font-face: NeueFrutigerWorld-Black
+                font-size: 13
+            Button-2:
+                font-face: NeueFrutigerWorld-Bold
+                font-size: 19
+            Button-3:
+                font-face: NeueFrutigerWorld-Black
+                font-size: 16
+            Caption:
+                font-face: NeueFrutigerWorld-Black
+                font-size: 14
+            H5:
+                font-face: NeueFrutigerWorld-Black
+                font-size: 28
+            Install-Action:
+                font-face: NeueFrutigerWorld-Heavy
+                font-size: 18
+            Install-ETA:
+                font-face: NeueFrutigerWorld-Heavy
+            System-Tray-Item:
+                font-face: NeueFrutigerWorld-Medium
+                font-size: 18
+        el: *Neue
+        th:
+            Body-1:
+                font-face: NeueFrutigerWorld-Medium
+            Body-2:
+                font-face: NeueFrutigerWorld-Medium
+            Button-1:
+                font-face: NeueFrutigerWorld-Bold
+            Button-1-Subtext:
+                font-face: NeueFrutigerWorld-Black
+            Button-2:
+                font-face: NeueFrutigerWorld-Bold
+            Button-3:
+                font-face: NeueFrutigerWorld-Black
+                font-size: 13
+            Caption:
+                font-face: NeueFrutigerWorld-Black
+                font-size: 14
+            H5:
+                font-face: NeueFrutigerWorld-Black
+            Install-Action:
+                font-face: NeueFrutigerWorld-Heavy
+            Install-ETA:
+                font-face: NeueFrutigerWorld-Heavy
+            System-Tray-Item:
+                font-face: NeueFrutigerWorld-Medium
+                font-size: 18
+        vn: *Neue
+        vi: *Neue
+        zh: &HeHeiSC
+            Body-1:
+                font-face: MXiangHeHeiSCPro-Medium
+            Body-2:
+                font-face: MXiangHeHeiSCPro-Regular
+            Button-1:
+                font-face: MXiangHeHeiSCPro-Bold
+            Button-1-Subtext:
+                font-face: MXiangHeHeiSCPro-Bold
+            Button-2:
+                font-face: MXiangHeHeiSCPro-Bold
+            Button-3:
+                font-face: MXiangHeHeiSCPro-Medium
+            Caption:
+                font-face: MXiangHeHeiSCPro-Regular
+            H5:
+                font-face: MXiangHeHeiSCPro-Heavy
+            Install-Action:
+                font-face: MXiangHeHeiSCPro-Bold
+            Install-ETA:
+                font-face: MXiangHeHeiSCPro-Bold
+            System-Tray-Item:
+                font-face: MXiangHeHeiSCPro-Regular
+                font-size: 16
+        zh_TW:
+            Body-1:
+                font-face: MXiangHeHeiTC-Medium
+            Body-2:
+                font-face: MXiangHeHeiTC-Regular
+            Button-1:
+                font-face: MXiangHeHeiTC-Bold
+            Button-1-Subtext:
+                font-face: MXiangHeHeiTC-Bold
+            Button-2:
+                font-face: MXiangHeHeiTC-Bold
+            Button-3:
+                font-face: MXiangHeHeiTC-Regular
+            Caption:
+                font-face: MXiangHeHeiTC-Regular
+            H5:
+                font-face: MXiangHeHeiTC-Heavy
+            Install-Action:
+                font-face: MXiangHeHeiTC-Bold
+            Install-ETA:
+                font-face: MXiangHeHeiTC-Bold
+            System-Tray-Item:
+                font-face: MXiangHeHeiSCPro-Regular
+                font-size: 16
+        ja: &Tazugane
+            Body-1:
+                font-face: TazuganeGothicStdN-Medium
+                font-spacing: 0.98
+            Body-2:
+                font-face: TazuganeGothicStdN-Medium
+            Button-1:
+                font-face: TazuganeGothicStdN-Bold
+                font-spacing: 0.98
+            Button-1-Subtext:
+                font-face: TazuganeGothicStdN-Black
+            Button-2:
+                font-face: TazuganeGothicStdN-Bold
+            Button-3:
+                font-face: TazuganeGothicStdN-Black
+                font-size: 14
+            Caption:
+                font-face: TazuganeGothicStdN-Black
+            H5:
+                font-face: TazuganeGothicStdN-Black
+            Install-Action:
+                font-face: TazuganeGothicStdN-Black
+            Install-ETA:
+                font-face: TazuganeGothicStdN-Black
+            System-Tray-Item:
+                font-face: TazuganeGothicStdN-Medium
+                font-size: 16
+        ko: &Seol
+            Body-1:
+                font-face: SeolSans-Medium
+            Body-2:
+                font-face: SeolSans-Medium
+            Button-1:
+                font-face: SeolSans-Bold
+                font-spacing: 0.98
+            Button-1-Subtext:
+                font-face: SeolSans-Black
+            Button-2:
+                font-face: SeolSans-Bold
+            Button-3:
+                font-face: SeolSans-Medium
+            Caption:
+                font-face: SeolSans-Medium
+                font-size: 12
+            H5:
+                font-face: SeolSans-Black
+            Install-Action:
+                font-face: SeolSans-Black
+            Install-ETA:
+                font-face: SeolSans-Black
+            System-Tray-Item:
+                font-face: SeolSans-Medium
+                font-size: 14
